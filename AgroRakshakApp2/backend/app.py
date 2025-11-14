@@ -84,14 +84,14 @@ CLASS_NAMES = {
 
 # Your validated class-specific thresholds
 CONFIDENCE_THRESHOLDS = {
-    0: 0.10,  # Early_blight - LOWERED FOR TESTING
-    1: 0.10,  # Healthy - LOWERED FOR TESTING
-    2: 0.10,  # Late_blight - LOWERED FOR TESTING
-    3: 0.10,  # Leaf_Miner - LOWERED FOR TESTING
-    4: 0.10,  # Magnesium_Deficiency - LOWERED FOR TESTING
-    5: 0.10,  # Nitrogen_Deficiency - LOWERED FOR TESTING
-    6: 0.10,  # Pottassium_Deficiency - LOWERED FOR TESTING
-    7: 0.10   # Spotted_Wilt_Virus - LOWERED FOR TESTING
+    0: 1.0,  # Early_blight - LOWERED FOR TESTING
+    1: 1.0,  # Healthy - LOWERED FOR TESTING
+    2: 0.18,  # Late_blight - LOWERED FOR TESTING
+    3: 0.55,  # Leaf_Miner - LOWERED FOR TESTING
+    4: 0.50,  # Magnesium_Deficiency - LOWERED FOR TESTING
+    5: 1.0,  # Nitrogen_Deficiency - LOWERED FOR TESTING
+    6: 1.0,  # Pottassium_Deficiency - LOWERED FOR TESTING
+    7: 1.0   # Spotted_Wilt_Virus - LOWERED FOR TESTING
 }
 
 

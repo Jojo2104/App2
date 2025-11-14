@@ -289,7 +289,7 @@ const DetectionInterface = () => {
   return (
     <div className="detection-interface">
       <div className="detection-header">
-        <h2>🍅 Tomato Disease Detection</h2>
+        <h2> Plant Disease Detection</h2>
         <p>AI-powered disease detection using YOLOv8</p>
         
         <div className="api-status">
